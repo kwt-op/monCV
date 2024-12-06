@@ -5,114 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon CV</title>
     <style>
+        /* Styles généraux */
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            text-align: center;
-        }
-        header {
-            background-color: #007BFF;
-            color: white;
-            padding: 20px 0;
-        }
-        main {
-            margin: 20px auto;
-            padding: 20px;
-        }
-        a {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            color: white;
-            background-color: #007BFF;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        a:hover {
-            background-color: #0056b3;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Bienvenue sur mon site</h1>
-    </header>
-    <main>
-        <p>Cliquez ci-dessous pour télécharger mon CV :</p>
-        <a href="CV_Nourelhouda_Mouzoune.pdf" download>Télécharger mon CV</a>
-    </main>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon CV</title>
-    <style>
-        /* Style global pour la page */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            text-align: center;
+            background-color: #f5f5f5;
+            color: #333;
         }
 
         header {
-            background-color: #007BFF;
+            background-color: #2d3e50;
             color: white;
-            padding: 20px 0;
+            padding: 40px 0;
+            text-align: center;
         }
 
-        h1 {
-            font-size: 2em;
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            letter-spacing: 2px;
         }
 
-        /* Style du bouton de téléchargement */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .container p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+
+        /* Bouton de téléchargement */
         .download-btn {
             display: inline-block;
             padding: 15px 30px;
-            background-color: #28a745;
+            background-color: #4CAF50;
             color: white;
             text-decoration: none;
-            border-radius: 5px;
-            font-size: 1.2em;
-            margin-top: 30px;
+            font-size: 1.5em;
+            border-radius: 8px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
         }
 
-        /* Effet au survol du bouton */
         .download-btn:hover {
-            background-color: #218838;
+            background-color: #45a049;
         }
 
+        /* Pied de page */
         footer {
-            background-color: #333;
+            background-color: #2d3e50;
             color: white;
             padding: 10px 0;
+            text-align: center;
             position: fixed;
             bottom: 0;
             width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1em;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Bienvenue sur mon CV en ligne</h1>
+    <h1>Mon CV Professionnel</h1>
 </header>
 
-<!-- Section principale -->
-<main>
-    <p>Je suis étudiant en [ton domaine] et voici mon CV en PDF.</p>
+<div class="container">
+    <p>Bonjour ! Je suis Nour El Houda Mouzoune . Vous pouvez télécharger mon CV en cliquant sur le bouton ci-dessous.</p>
+    
     <a href="CV_Prenom_Nom.pdf" class="download-btn" download>Télécharger mon CV</a>
-</main>
+</div>
 
-<!-- Footer -->
 <footer>
-    <p>&copy; 2024 Ton Nom. Tous droits réservés.</p>
+    <p>&copy; 2024 mouzoune. Tous droits réservés.</p>
 </footer>
 
 </body>
